@@ -10,9 +10,15 @@ body{
     margin: auto;
 }
 /* .............media queries (*semiresponsive)..........*/
-@media (max-width:960px){
+@media screen and (max-width:960px){
     body{
         width: 80%;
+    }
+
+    footer{
+        display: flex;
+        background:rgb(38, 39, 35);
+        flex-direction: column-reverse !important;
     }
 
     #top-content-area{
@@ -28,12 +34,6 @@ body{
 
     #bottom-content-area{
         display: flex;
-        flex-direction: column;
-    }
-
-    footer{
-        display: flex;
-        background:rgb(38, 39, 35);
         flex-direction: column;
     }
 
