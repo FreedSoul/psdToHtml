@@ -18,7 +18,8 @@ body{
     footer{
         display: flex;
         background:rgb(38, 39, 35);
-        flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;/* to avoid use of !important in this case, is recomended put
+        media queries in the last part of the style sheet or at least further down than the first declaration*/
     }
 
     #top-content-area{
@@ -39,6 +40,7 @@ body{
 
 }
 /*---------------------------------------------------*/
+/*.............MENU BAR......................*/
 .top-wrapper{
     background: rgb(38, 39, 35);
     display: flex;
@@ -124,6 +126,7 @@ body{
 .navbar-link a:visited{
     color: beige;
 }
+/*............./MENU BAR......................*/
 /* ............CONTENT AREA.................. */
 #content-area{
     
