@@ -6,13 +6,12 @@
 }
 
 body{
-    
     margin: auto;
 }
 /* .............media queries (*semiresponsive)..........*/
 @media screen and (max-width:960px){
     body{
-        width: 80%;
+        width: 100%;
     }
 
     footer{
@@ -72,7 +71,8 @@ body{
     background: transparent;
     display: flex;
     flex-direction: column;
-    flex-grow: 0.5;
+    flex-grow: 0.1;
+
 }
 
 #my-menu ul{
@@ -81,8 +81,11 @@ body{
 }
 
 #search-block{
-    margin-left: 60%;
+    width: 60%;
     margin-top: 8px;
+    white-space: nowrap;
+    position: relative;
+    right:-30%;
 } 
 
 #search-input{
@@ -95,6 +98,7 @@ body{
     color: beige;
     border: 1px solid beige;
     margin: 5px;
+    
 }
 
 .navbar-link{
